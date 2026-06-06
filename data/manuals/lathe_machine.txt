@@ -1,0 +1,43 @@
+LATHE MACHINE D - EQUIPMENT MANUAL
+Model: LM-4000 Series
+Equipment ID: E004
+
+TEMPERATURE GUIDELINES
+Normal operating temperature range: 45C to 75C
+Warning threshold: 80C
+Critical threshold: 95C
+If temperature exceeds 80C, inspect cooling system immediately.
+High temperature is commonly caused by coolant blockage, worn bearings, or excessive cutting speed.
+Recommended action: Stop machine, allow 30 minute cooldown, inspect coolant lines.
+
+VIBRATION GUIDELINES
+Normal vibration range: 0.5 to 3.5 mm/s
+Warning threshold: 5.0 mm/s
+Critical threshold: 8.0 mm/s
+High vibration indicates worn bearings, spindle imbalance, or loose mounting bolts.
+Recommended action: Check bearing condition, inspect spindle alignment, tighten mounting hardware.
+
+PRESSURE GUIDELINES
+Normal hydraulic pressure: 60 to 90 PSI
+Warning threshold: 100 PSI
+Critical threshold: 120 PSI
+High pressure indicates blockage in hydraulic lines or failing pressure relief valve.
+
+MAINTENANCE SCHEDULE
+Daily: Check coolant level, inspect cutting tool condition
+Weekly: Lubricate spindle bearings, check belt tension
+Monthly: Full bearing inspection, coolant system flush
+Every 90 days: Complete overhaul inspection by certified technician
+
+TROUBLESHOOTING
+Problem: Machine overheating
+Cause: Coolant blockage or low coolant level
+Fix: Flush coolant system, refill to recommended level, inspect pump
+
+Problem: Excessive vibration during operation
+Cause: Worn spindle bearings
+Fix: Replace bearings immediately, recalibrate spindle balance
+
+Problem: Hydraulic pressure spike
+Cause: Blocked hydraulic filter
+Fix: Replace hydraulic filter, bleed system

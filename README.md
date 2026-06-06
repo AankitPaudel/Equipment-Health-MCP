@@ -70,12 +70,12 @@ equipment-health-mcp/
 │   ├── tools.py          # Tool implementations — all database queries
 │   ├── database.py       # SQLAlchemy models and session management
 │   ├── observability.py  # Logs every tool call to JSONL
-│   ├── rag.py            # ChromaDB indexing for equipment manuals
 │   └── api.py            # FastAPI REST layer on top of MCP tools
 ├── agent/
 │   └── agent.py          # LLM agent that connects to MCP server
 ├── data/
 │   ├── seed.py           # Populates 10 machines with 30 days of sensor data
+│   ├── index_manuals.py  # Indexes manual text files into ChromaDB for RAG
 │   └── manuals/          # Equipment manual text files for RAG
 ├── dashboard/
 │   └── app.py            # Streamlit observability dashboard
@@ -122,27 +122,35 @@ python -c "from server.database import init_db; init_db()"
 python data/seed.py
 ```
 
-### 4. Run the AI agent
+### 4. Index the equipment manuals for RAG
+
+```bash
+python data/index_manuals.py
+```
+
+This creates the `equipment_manuals` ChromaDB collection used by the `query_knowledge_base` MCP tool.
+
+### 5. Run the AI agent
 
 ```bash
 python agent/agent.py
 ```
 
-### 5. Run the REST API
+### 6. Run the REST API
 
 ```bash
 uvicorn server.api:app --reload
 # Swagger UI available at http://localhost:8000/docs
 ```
 
-### 6. Run the observability dashboard
+### 7. Run the observability dashboard
 
 ```bash
 streamlit run dashboard/app.py
 # Dashboard available at http://localhost:8501
 ```
 
-### 7. Run with Docker Compose
+### 8. Run with Docker Compose
 
 ```bash
 docker-compose up
@@ -158,6 +166,16 @@ docker-compose up
 | GET | `/metrics` | Get production metrics over date range |
 | GET | `/knowledge` | Search equipment manuals |
 | GET | `/health` | Health check |
+
+## RAG Knowledge Base
+
+The knowledge base is populated from `.txt` manuals in `data/manuals/`. Run the indexer after adding or editing manuals:
+
+```bash
+python data/index_manuals.py
+```
+
+The script chunks the manuals and stores them in the local `chroma_db/` directory. Tool 5, `query_knowledge_base`, searches that collection for manual-backed maintenance guidance.
 
 ## Observability
 

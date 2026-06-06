@@ -1,0 +1,47 @@
+COMPRESSOR G - EQUIPMENT MANUAL
+Model: CG-2000 Industrial
+Equipment ID: E007
+
+VIBRATION GUIDELINES
+Normal vibration range: 0.5 to 3.0 mm/s
+Warning threshold: 5.0 mm/s
+Critical threshold: 7.0 mm/s
+Compressors are highly sensitive to vibration. Any reading above 5.0 mm/s requires immediate inspection.
+High vibration is the leading cause of compressor failure in manufacturing environments.
+Recommended action: Inspect bearings, check mounting bolts, verify belt alignment.
+
+TEMPERATURE GUIDELINES
+Normal operating temperature: 40C to 70C
+Warning threshold: 80C
+If temperature exceeds warning threshold, check ventilation and cooling fins.
+
+PRESSURE GUIDELINES
+Normal discharge pressure: 70 to 95 PSI
+Warning threshold: 100 PSI
+Never operate above 120 PSI. Pressure relief valve activates at 125 PSI.
+
+MAINTENANCE SCHEDULE
+Daily: Check oil level, listen for unusual sounds
+Weekly: Inspect drive belts, check inlet filter
+Every 30 days: Oil change, bearing lubrication
+Every 90 days: Full inspection by certified technician — CRITICAL for vibration issues
+
+BEARING MAINTENANCE
+Bearings are the most common failure point on CG-2000 compressors.
+Signs of bearing failure: increased vibration, grinding noise, heat near bearing housing.
+Bearing replacement interval: every 6 months under normal operation.
+After bearing replacement, always recalibrate vibration baseline.
+If vibration issue is unresolved after bearing replacement, inspect crankshaft alignment.
+
+TROUBLESHOOTING
+Problem: High vibration after bearing replacement
+Cause: Crankshaft misalignment or imbalanced rotor
+Fix: Check crankshaft runout, rebalance rotor, verify coupling alignment
+
+Problem: Compressor not reaching rated pressure
+Cause: Worn piston rings or valve leakage
+Fix: Inspect and replace piston rings, test inlet and outlet valves
+
+Problem: Oil in discharge air
+Cause: Worn piston rings
+Fix: Replace piston rings, check oil level

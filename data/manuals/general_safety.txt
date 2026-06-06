@@ -1,0 +1,42 @@
+GENERAL EQUIPMENT SAFETY AND MAINTENANCE GUIDE
+Manufacturing Floor - All Equipment
+
+ANOMALY RESPONSE PROCEDURES
+When any sensor reading exceeds warning threshold:
+1. Log the anomaly immediately in the monitoring system
+2. Notify shift supervisor within 5 minutes
+3. Assess whether machine can continue operating safely
+4. Schedule maintenance within 24 hours if reading is in warning range
+5. Shut down immediately if reading reaches critical threshold
+
+TEMPERATURE ANOMALIES
+Temperature anomalies are the most common sensor alert on the manufacturing floor.
+Common causes: coolant issues, bearing wear, blocked ventilation, excessive load.
+Never ignore a temperature warning. Sustained high temperature accelerates bearing wear
+and can cause permanent damage to precision components.
+
+VIBRATION ANOMALIES
+Vibration anomalies often indicate early-stage mechanical failure.
+Catching vibration issues early prevents catastrophic failure.
+A machine showing vibration above warning threshold should be inspected within 4 hours.
+Document all vibration readings and trends for predictive maintenance analysis.
+
+MAINTENANCE OVERDUE POLICY
+Any equipment not inspected within 30 days is considered overdue.
+Equipment overdue by more than 60 days must be inspected before next shift.
+Equipment overdue by more than 90 days must be taken offline until inspected.
+Maintenance records must be updated immediately after each service event.
+
+SENSOR THRESHOLDS - ALL EQUIPMENT
+Temperature warning: 80C
+Temperature critical: 95C
+Vibration warning: 5.0 mm/s
+Vibration critical: 8.0 mm/s
+Pressure warning: 100 PSI
+Pressure critical: 120 PSI
+
+PREDICTIVE MAINTENANCE
+Use historical sensor data to identify trends before failures occur.
+A gradual rise in temperature over 7 days indicates developing coolant issue.
+A gradual rise in vibration over 14 days indicates bearing wear.
+Flag any upward trend exceeding 10 percent over 7 days for preventive inspection.
